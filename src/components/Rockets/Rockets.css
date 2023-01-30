@@ -1,0 +1,75 @@
+.rocket-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image-frame {
+  width: 20%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-frame img {
+  width: 100%;
+}
+
+.rocket-info {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rocket-info h2 {
+  margin: 0;
+}
+
+.rocket-info p {
+  margin: 0;
+}
+
+.reserved-rocket {
+  background-color: #18a2b8;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 8px;
+  opacity: 0.8;
+  letter-spacing: 1.5px;
+}
+
+.rocket-description {
+  padding-left: 10px;
+}
+
+.reserveBtn {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+}
+
+.cancelBtn {
+  border: 1px solid #555;
+  color: #333;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+}
+
+.cancelBtn:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
