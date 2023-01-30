@@ -1,0 +1,50 @@
+ul {
+  text-decoration: none;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li:nth-child(2) {
+  border-right: 2px solid #333;
+  padding-right: 22px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a:active,
+.navbar ul li a:focus {
+  border-bottom: 2px solid rgb(44, 159, 236);
+  color: rgb(44, 159, 236);
+}

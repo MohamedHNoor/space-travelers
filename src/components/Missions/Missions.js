@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Missions = () => <h1>I am the missions page</h1>;
+const Missions = () => <div className="container">I am the missions page</div>;
 
 export default Missions;
