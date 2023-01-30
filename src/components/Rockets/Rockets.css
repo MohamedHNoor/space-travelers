@@ -1,18 +1,14 @@
 .rocket-list {
   display: flex;
-  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
-  border: 1px solid #000;
-  padding: 20px;
-  border-radius: 10px;
+  gap: 10px;
   margin-bottom: 20px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .image-frame {
-  width: 20%;
-  border: 1px solid #000;
-  border-radius: 10px;
+  width: 400px;
   overflow: hidden;
 }
 
@@ -22,32 +18,31 @@
 
 .rocket-info {
   display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: flex-start;
   flex-direction: column;
-  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+  flex: 1;
+  align-items: flex-start;
 }
 
-.rocket-info h2 {
-  margin: 0;
+.rocket-info h3 {
+  color: #121212;
+  font-size: 2rem;
 }
 
 .rocket-info p {
-  margin: 0;
+  font-size: 1.5rem;
+  color: #110;
+  letter-spacing: 1.5px;
 }
 
 .reserved-rocket {
   background-color: #18a2b8;
   color: #fff;
   border-radius: 4px;
-  padding: 4px 8px;
-  opacity: 0.8;
-  letter-spacing: 1.5px;
-}
-
-.rocket-description {
-  padding-left: 10px;
+  padding: 0 8px;
+  margin-right: 10px;
 }
 
 .reserveBtn {
