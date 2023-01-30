@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navigation/Navbar';
+import Missions from './components/Missions/Missions';
+import Profile from './components/Profile/Profile';
+import Rockets from './components/Rockets/Rockets';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Rockets />} />
+        <Route path="Missions" element={<Missions />} />
+        <Route path="Profile" element={<Profile />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
