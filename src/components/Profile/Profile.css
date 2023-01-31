@@ -1,0 +1,40 @@
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 2% auto 0 auto;
+}
+
+.mission-container {
+  min-width: 40%;
+}
+
+.mission-container ul {
+  border: 1px solid #e3e3e3;
+}
+
+.profile-container h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #101;
+}
+
+.mission-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 1.5rem;
+}
+
+.mission-item:not(:last-child) {
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.no-mission {
+  border: none;
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 15px;
+}
