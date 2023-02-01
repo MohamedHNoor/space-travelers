@@ -12,7 +12,7 @@ describe('Rockets test', () => {
         <BrowserRouter>
           <Rockets />
         </BrowserRouter>
-      </Provider>
+      </Provider>,
     );
     expect(rockets).toMatchSnapshot();
   });

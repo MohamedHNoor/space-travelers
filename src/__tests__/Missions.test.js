@@ -12,7 +12,7 @@ describe('Missions test', () => {
         <BrowserRouter>
           <Missions />
         </BrowserRouter>
-      </Provider>
+      </Provider>,
     );
     expect(missions).toMatchSnapshot();
   });
