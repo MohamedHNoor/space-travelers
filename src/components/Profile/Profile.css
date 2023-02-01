@@ -1,0 +1,52 @@
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 2% auto 1% auto;
+}
+
+.rockets-container {
+  min-width: 48%;
+}
+
+.mission-container {
+  min-width: 48%;
+}
+
+.mission-container ul {
+  border: 1px solid #e3e3e3;
+}
+
+.profile-container h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #101;
+}
+
+.no-mission,
+.no-rockets {
+  font-weight: 500;
+  color: #555;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 1.5rem;
+}
+
+.item:not(:last-child) {
+  border-bottom: 1px solid #e3e3e3;
+}
+
+/* .mission-item:not(:last-child) {
+  border-bottom: 1px solid #e3e3e3;
+} */
+
+/* .no-mission {
+  border
+} */
