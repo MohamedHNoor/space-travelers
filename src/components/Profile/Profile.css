@@ -2,15 +2,15 @@
   display: flex;
   justify-content: space-between;
   width: 85%;
-  margin: 2% auto 0 auto;
+  margin: 2% auto 1% auto;
 }
 
 .rockets-container {
-  min-width: 40%;
+  min-width: 48%;
 }
 
 .mission-container {
-  min-width: 40%;
+  min-width: 48%;
 }
 
 .mission-container ul {
