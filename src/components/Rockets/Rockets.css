@@ -56,14 +56,12 @@
 }
 
 .cancelBtn {
-  border: 1px solid #555;
-  color: #333;
+  border: 2px solid rgb(107, 106, 106);
+  background-color: #fff;
+  color: rgb(125, 124, 124);
   border-radius: 4px;
   padding: 8px 16px;
   cursor: pointer;
   letter-spacing: 1.5px;
-}
-
-.cancelBtn:hover {
-  border: 1px solid #dc3545;
+  font-weight: 300;
 }
