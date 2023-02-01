@@ -1,3 +1,69 @@
-html {
-  font-size: 62.5%;
+.table {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.row td {
+  border: 1px solid #333;
+  height: 120px;
+  text-align: start;
+  padding-left: 2px;
+}
+
+tr td:first-child {
+  width: 15%;
+}
+
+tr td:nth-child(2) {
+  width: 55%;
+}
+
+tr th {
+  border: 1px solid #333;
+  height: 30px;
+  padding: 5px;
+  text-align: start;
+  vertical-align: top;
+}
+
+tbody tr:nth-child(2n) {
+  background: rgb(241 237 237 / 49%);
+}
+
+tr td:nth-child(4),
+tr td:nth-child(3) {
+  text-align: center;
+}
+
+.status {
+  background-color: gray;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 4px;
+}
+
+tr button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.joined-btn {
+  padding: 5px;
+  cursor: pointer;
+  width: 90%;
+}
+
+.leave-btn {
+  border: 1px solid red;
+  color: red;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.status.active {
+  background: rgb(143, 239, 246);
 }
