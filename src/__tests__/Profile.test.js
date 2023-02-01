@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import store from '../redux/configureStore';
-import Profile from '../components/profile/Profile';
+import Profile from '../components/Profile/Profile';
 import '@testing-library/jest-dom';
 
 describe('Check diplay of missions and rockets on profile', () => {
