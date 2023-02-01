@@ -3,17 +3,17 @@ import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import store from '../redux/configureStore';
-import Rockets from '../components/Rockets/Rockets';
+import Missions from '../components/Missions/Missions';
 
-describe('Rockets test', () => {
-  test('should render all rockets', () => {
-    const rockets = render(
+describe('Missions test', () => {
+  test('should render all missions', () => {
+    const missions = render(
       <Provider store={store}>
         <BrowserRouter>
-          <Rockets />
+          <Missions />
         </BrowserRouter>
       </Provider>
     );
-    expect(rockets).toMatchSnapshot();
+    expect(missions).toMatchSnapshot();
   });
 });
