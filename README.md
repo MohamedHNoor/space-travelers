@@ -52,7 +52,6 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -76,9 +75,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Reserve and Cancel Rockets]**
+- **[Join and Leave Missions]**
+- **[Display reserved rockets and joined missions]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,9 +165,9 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Add dragon's page]**
+- [ ] **[Reserve and cancel dragon's]**
+- [ ] **[Display reserved dragon's]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,8 +185,6 @@ Feel free to check the [issues page](https://github.com/MohamedHNoor/space-trave
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project give us ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -196,9 +193,7 @@ If you like this project give us ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank my partner.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
