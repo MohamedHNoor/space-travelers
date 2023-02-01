@@ -24,7 +24,7 @@ function Mission({
         <td>{description}</td>
         <td>
           <span className={`status ${!joined ? '' : 'active'}`}>
-            NOT A MEMBER
+            {!joined ? 'Not a member' : 'Active member'}
           </span>
         </td>
 
